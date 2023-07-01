@@ -1,7 +1,50 @@
 {
-    "users": [
-        {"id": 1, "name": "Myra"}
-    ],
-    "albums": [],
-    "photos": []
+  "users": [
+    {
+      "id": 1,
+      "name": "Myra"
+    },
+    {
+      "name": "Jeanette Kutch",
+      "id": 2
+    },
+    {
+      "name": "Dennis Stark",
+      "id": 3
+    },
+    {
+      "name": "Mr. Mitchell Cremin",
+      "id": 4
+    },
+    {
+      "name": "Nichole Ernser",
+      "id": 5
+    },
+    {
+      "name": "Lionel Nienow",
+      "id": 6
+    },
+    {
+      "name": "Essie Welch",
+      "id": 7
+    },
+    {
+      "name": "Lorraine Kertzmann",
+      "id": 8
+    },
+    {
+      "name": "Olga Conroy-Pagac",
+      "id": 9
+    },
+    {
+      "name": "Lucille Medhurst",
+      "id": 10
+    },
+    {
+      "name": "Jason Herman-Kuhic",
+      "id": 11
+    }
+  ],
+  "albums": [],
+  "photos": []
 }

@@ -3,10 +3,11 @@ import { usersReducer } from "./slices/usersSlice";
 
 const store = configureStore({
     reducer: {
-        users: usersReducer
-    }
+        users: usersReducer,
+    },
 });
 
 
 export {store};
 export * from './thunks/fetchUsers';
+export* from './thunks/addUser';
