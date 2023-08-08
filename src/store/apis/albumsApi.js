@@ -1,14 +1,14 @@
-import {createApi} from "@reduxjs/toolkit/query/react";
+import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
 
 const albumsApi = createApi({
     reducersPath: "albums",
-    baseQuery: fetchBaseQuery({baseUrl: "http://localhost:3000"}),
-    endpoints: (builder)=>({
+    baseQuery: fetchBaseQuery({ baseUrl: "http://localhost:3005" }),
+    endpoints: (builder) => ({
         fetchAlbums: builder.query({
-            query: (user)=>{
+            query: (user) => {
                 return {
-                    url:"/albums",
+                    url: "/albums",
                     params: {
                         userId: user.id
                     },
@@ -21,4 +21,6 @@ const albumsApi = createApi({
 
 });
 
-export {albumsApi};
+
+export const {useFetchAlbumsQuery} = albumsApi;
+export { albumsApi };
