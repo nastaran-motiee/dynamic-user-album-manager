@@ -1,5 +1,10 @@
 import classNames from 'classnames';
 
+/**
+ * Skeleton
+ * @param {*} param0 
+ * @returns 
+ */
 const Skeleton = ({ times , className}) => {
     const outerClassNames = classNames(
         'relative',
