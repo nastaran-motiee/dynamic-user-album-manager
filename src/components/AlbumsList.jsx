@@ -5,17 +5,17 @@ import Button from "./Button";
 import AlbumsListItem from "./AlbumsListItem";
 
 function AlbumsList({ user }) {
-    const { data, error, isLoading } = useFetchAlbumsQuery(user);
+    const { data, error, isFetching } = useFetchAlbumsQuery(user);
     const [addAlbum, results] = useAddAlbumMutation();
 
     let content;
-    if (isLoading) {
-        content = <Skeleton className="h-10 w-full" times={ 3 } />
+    if (isFetching) {
+        content = <Skeleton className="h-10 w-full" times={ 3 } />;
     } else if (error) {
-        content = <div> Error Loading Albums!</div>
+        content = <div> Error Fetching Albums!</div>;
     } else {
         content = data.map((album) => {
-            return <AlbumsListItem key={ album.id } album={ album } />
+            return <AlbumsListItem key={ album.id } album={ album } />;
         });
     }
 
