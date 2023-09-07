@@ -27,11 +27,6 @@
   ],
   "albums": [
     {
-      "id": 10,
-      "title": "Hiking Trip",
-      "userId": 1
-    },
-    {
       "userId": 1,
       "title": "Oriental Metal Keyboard",
       "id": 11
