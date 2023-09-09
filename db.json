@@ -3,69 +3,25 @@
     {
       "id": 1,
       "name": "Myra"
-    },
-    {
-      "name": "Jason Herman-Kuhic",
-      "id": 11
-    },
-    {
-      "name": "Cathy Wolff",
-      "id": 13
-    },
-    {
-      "name": "Kent Yundt Sr.",
-      "id": 14
-    },
-    {
-      "name": "Margaret Kassulke",
-      "id": 16
-    },
-    {
-      "name": "Terence Smitham",
-      "id": 17
     }
   ],
   "albums": [
     {
-      "userId": 11,
-      "title": "Licensed Rubber Bacon",
-      "id": 13
-    },
-    {
-      "userId": 11,
-      "title": "Sleek Cotton Salad",
-      "id": 14
-    },
-    {
-      "userId": 11,
-      "title": "Handmade Granite Shirt",
-      "id": 15
-    },
-    {
       "userId": 1,
-      "title": "Oriental Rubber Salad",
-      "id": 17
-    },
-    {
-      "userId": 1,
-      "title": "Luxurious Concrete Shoes",
-      "id": 18
-    },
-    {
-      "userId": 1,
-      "title": "Intelligent Wooden Pants",
-      "id": 19
-    },
-    {
-      "userId": 11,
-      "title": "Unbranded Fresh Soap",
-      "id": 20
-    },
-    {
-      "userId": 11,
-      "title": "Electronic Concrete Chicken",
-      "id": 21
+      "title": "Elegant Metal Soap",
+      "id": 1
     }
   ],
-  "photos": []
+  "photos": [
+    {
+      "albumId": 1,
+      "url": "https://loremflickr.com/640/480?lock=2151613108060160",
+      "id": 1
+    },
+    {
+      "albumId": 1,
+      "url": "https://loremflickr.com/640/480?lock=7914419140952064",
+      "id": 2
+    }
+  ]
 }
