@@ -1,27 +1,22 @@
 {
   "users": [
     {
-      "id": 1,
-      "name": "Myra"
+      "name": "Herman Grady",
+      "id": 1
     }
   ],
   "albums": [
     {
       "userId": 1,
-      "title": "Elegant Metal Soap",
+      "title": "Generic Cotton Table",
       "id": 1
     }
   ],
   "photos": [
     {
       "albumId": 1,
-      "url": "https://loremflickr.com/640/480?lock=2151613108060160",
+      "url": "https://picsum.photos/seed/I17Dbypmv/640/480",
       "id": 1
-    },
-    {
-      "albumId": 1,
-      "url": "https://loremflickr.com/640/480?lock=7914419140952064",
-      "id": 2
     }
   ]
 }
